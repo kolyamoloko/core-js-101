@@ -226,9 +226,9 @@ function getRectangleString(/* width, height */) {
  *    => 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm'
  *
  */
-function encodeToRot13(str) {
-  let obj = {a: 'n', b: 'o',}; 
-  
+function encodeToRot13(/* str */) {
+  throw new Error('Not implemented');
+/*  let obj = {a: 'n', b: 'o',}; */
 }
 
 /**
